@@ -17,7 +17,7 @@ h2 {
 }
 
 #cv {
-    background: url('../images/cv-background.png'), hsl(0, 0%, 100%, 90%);
+    background: rgba(243, 241, 236, 0.9);
     display: flex;
 }
 
