@@ -1,3 +1,9 @@
+main {
+    width: 60%;
+    margin: auto;
+    border: 2px solid #1A242F;
+}
+
 #cv {
     background-image: '../images/cv-background.png';
     display: flex;
@@ -5,8 +11,23 @@
 
 /* ---------------- Partie Gauche du CV ---------------- */
 #cv-left {
+    width: 30%;
     background-color: #1A242F;
+    font-family: 'Calibri Light';
     color: white;
+    padding: 1%;
+}
+
+#cv-left a {
+    text-decoration: none;
+    color: white;
+}
+
+#cv-left a:hover {
+    font-weight: bold;
+    color: #DD6825;
+    text-decoration: underline;
+
 }
 
 #profile-picture {
@@ -15,5 +36,66 @@
 
 /* ---------------- Partie Droite du CV ---------------- */
 #cv-right {
+    width: 60%;
+    padding: 1%;
+    font-family: 'Calibri Light';
+}
 
+#name-title {
+    font-family: 'Agency FB', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#fullstack {
+    color: #DD6825;
+}
+
+.citation {
+    font-style: italic;
+}
+
+.right-section-title {
+    color: #374555;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.experience-block {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.dates {
+    width: 25%;
+    margin-top: 0.7rem;
+}
+
+.date-token {
+    background-color: #1A242F;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    width: 80px;
+    height: 1.2rem;
+    border-radius: 5px;
+}
+
+.experience-details-title {
+    font-size: 1.1rem;
 }
