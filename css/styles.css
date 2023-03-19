@@ -1,0 +1,19 @@
+#cv {
+    background-image: '../images/cv-background.png';
+    display: flex;
+}
+
+/* ---------------- Partie Gauche du CV ---------------- */
+#cv-left {
+    background-color: #1A242F;
+    color: white;
+}
+
+#profile-picture {
+    height: 200px;
+}
+
+/* ---------------- Partie Droite du CV ---------------- */
+#cv-right {
+
+}
