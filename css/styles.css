@@ -42,7 +42,12 @@ h2 {
 
 }
 
+#photo {
+    display: flex;
+}
+
 #profile-picture {
+    margin: auto;
     height: 200px;
 }
 
