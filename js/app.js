@@ -16,7 +16,7 @@ new Typewriter(txtAnim, {
 .pauseFor(1000)
 .deleteChars(8)
 .typeString('<span style="font-weight: bold;">FullStack</span>')
-.pauseFor(10000)
+.pauseFor(7000)
 .changeDeleteSpeed(20)
 .deleteChars(9)
 .start()

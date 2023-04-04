@@ -12,6 +12,10 @@ body {
   background-size: cover;
   border: 0.1px solid white;
 }
+
+#home-page-mid {
+  height: 33vh;
+}
   
 #home {
   background-image: url("../images/bg-main.avif");
@@ -19,11 +23,77 @@ body {
   
 #aboutMe {
   background-image: url("../images/bg-about-me.avif");
+  display: flex;
+  flex-direction: row;
 }
+
+#aboutMe-picture {
+  width: 40vw;
+  height: 100%;
+  background-color: grey;
+}
+
+#aboutMe-description {
+  width: 60vw;
+  height: 100%;
+}
+
+#aboutMe-description--text {
+  margin-top: 3em;
+  margin-right: 45%;
+  font-size: 1.1em;
+  line-height: 1.8em;
+  margin-bottom: 2.5em;
+}
+
 
 #skillSet {
   background-image: url("../images/bg-skillset.avif");
 }
+
+#skills--bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.skills-list {
+width: 30%;
+}
+
+.skills-list p {
+  font-weight: bold;
+  font-size: 1.3em;
+  border-left: 3px solid black;
+  line-height: 2em;
+  padding-left: 1.5em;
+}
+
+.skills--pictures {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px 0px;
+}
+
+.skills--pictures img {
+width: 25%;
+}
+
+
+#skills-dev {
+
+}
+
+#skills-tools {
+  
+}
+
+#skills-softskills {
+  
+}
+
   
 #projects {
   background-image: url("../images/bg-projects.avif");
@@ -53,13 +123,16 @@ h2 {
   margin-top: 0;
 }
 
+.text-block {
+  font-family: 'Esteban', serif;
+  font-weight: normal;
+}
+
 .page-top {
 height: 12vh;
 }
 
 .page-mid {
-  height: 33vh;
-  /* text-shadow: 3px 3px 3px white; */
   padding-left: 8%;
 }
 
@@ -97,7 +170,63 @@ flex-wrap: wrap;
 row-gap: 50px;
 }
 
-#tools img {
-  height: 75px;
+#skillSet img {
+  height: 60px;
   width: 25%;
+}
+
+#projects-top {
+  display: flex;
+  flex-direction: row;
+}
+
+#projects-top--main {
+width: 35%;
+border: 1px solid black;
+}
+
+#projects-top--description {
+  width: 65%;
+}
+
+#projects-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#projects-bottom img {
+  width: 34%;
+  height: 460px;
+  border: 1px solid black;
+}
+
+#contact-description {
+margin-left: 35%;
+}
+
+#contact-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#contact-bottom p {
+  font-weight: bold;
+  font-size: 1.3em;
+  border-left: 3px solid black;
+  line-height: 2em;
+  padding-left: 1.5em;
+}
+
+.contact-bottom--section {
+  width: 40%;
+}
+
+#contact img {
+  height: 40px;
+}
+
+#contact ul {
+  list-style: none;
 }
