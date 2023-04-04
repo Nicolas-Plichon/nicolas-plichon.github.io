@@ -1,0 +1,139 @@
+body {
+    background: no-repeat url('../images/body-background.avif') fixed;
+    background-size: cover;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    border: 4px solid #1A242F;
+    border-radius: 10px;
+    box-shadow: 8px 6px 4px #374555;
+}
+
+h2 {
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+}
+
+#cv {
+    background: rgba(243, 241, 236, 0.9);
+    display: flex;
+}
+
+/* ---------------- Partie Gauche du CV ---------------- */
+#cv-left {
+    width: 30%;
+    background-color: hsl(211, 29%, 14%, 88%);
+    font-family: 'Calibri Light';
+    color: white;
+    padding: 1%;
+}
+
+#cv-left a {
+    text-decoration: none;
+    color: white;
+}
+
+#cv-left a:hover {
+    font-weight: bold;
+    color: #DD6825;
+    text-decoration: underline;
+
+}
+
+#photo {
+    display: flex;
+}
+
+#profile-picture {
+    margin: auto;
+    height: 200px;
+}
+
+.left-contact-line {
+    display: flex;
+    margin-bottom: 0.2rem;
+}
+
+.contact-icon {
+    background-color: white;
+    border-radius: 15px;
+    height: 1.2rem;
+    margin-right: 10px;
+}
+
+
+/* ---------------- Partie Droite du CV ---------------- */
+#cv-right {
+    width: 70%;
+    padding: 1%;
+    font-family: 'Calibri Light';
+}
+
+#name-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Agency FB', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#fullstack {
+    color: #DD6825;
+}
+
+.citation {
+    font-style: italic;
+}
+
+.right-section-title {
+    color: #374555;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #1A242F;
+}
+
+.experience-block {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.dates {
+    width: 20%;
+    margin-top: 0.7rem;
+}
+
+.date-token {
+    background-color: #1A242F;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    width: 80px;
+    height: 1.2rem;
+    border-radius: 5px;
+}
+
+.experience-details-title {
+    font-size: 1.1rem;
+}
+
+.experience-details {
+    width: 80%;
+}

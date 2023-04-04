@@ -1,255 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Portfolio Nicolas Plichon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Esteban&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Nicolas Plichon - Développeur Web Full Stack</title>
 </head>
 <body>
     <main>
-        <section id="cv">
-
-            <!-- Partie Gauche du CV -->
-            <section id="cv-left">
-
-                <div id="photo">
-                    <img src="./images/Photo-CV.png" alt="Photo Nicolas Plichon" id="profile-picture">
-                </div>
-
-                <div id="contact">
-                    <h2>Contact & Réseaux</h2>
-                    <div class="left-contact-line">
-                        <img src="./images/icon-phone.png" alt="Téléphone Portable" class="contact-icon">
-                       06.71.71.10.16
-                    </div>
-                    <div class="left-contact-line">
-                        <img src="./images/icon-mail.png" alt="Adresse Mail" class="contact-icon">
-                       <a href="mailto:nicolas.plichon@gmail.com">nicolas.plichon@gmail.com</a>
-                    </div>
-                    <div class="left-contact-line">
-                        <img src="./images/icon-linkedin.png" alt="LinkedIn" class="contact-icon">
-                       <a href="https://www.linkedin.com/in/nicolas-plichon/" target="_blank">/nicolas.plichon</a>
-                    </div>
-                    <div class="left-contact-line">
-                        <img src="./images/icon-folio.png" alt="Portfolio" class="contact-icon">
-                       <a href="https://nicolas-plichon.github.io/" target="_self">Portfolio</a>
-                    </div>
-                    <div class="left-contact-line">
-                        <img src="./images/icon-git.png" alt="GitHub" class="contact-icon">
-                       <a href="https://github.com/Nicolas-Plichon/" target="_blank">/Nicolas-Plichon</a>
-                    </div>
-                    <div class="left-contact-line">
-                        <img src="./images/icon-loc.png" alt="Localisation" class="contact-icon">
-                        <a href="https://www.google.com/maps/place/68000+Colmar/@48.1115847,7.322345,12z/data=!3m1!4b1!4m6!3m5!1s0x479165dff670c1cf:0xe35d7e3e616ce966!8m2!3d48.0793589!4d7.358512!16zL20vMDFnOGZy" target="_blank">
-                        Colmar (68)</a>
-                    </div>
-                    <div class="left-contact-line">
-                        <img src="./images/icon-date.png" alt="Date de Naissance" class="contact-icon">
-                        <a href="https://takemeback.to/fr/26-Mars-1982" target="_blank">
-                        26 mars 1982</a>
-                    </div>
-                </div>
-
-                <div id="key-skills">
-                    <h2>Compétences Clés</h2>
-                    <ul>
-                        <li>HTML / CSS</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                        <li>Github</li>
-                        <li>Node.js</li>
-                        <li>PostgreSQL</li>
-                        <li>SequeLize</li>
-                        <li>Tailewind / Bulma</li>
-                    </ul>                   
-                </div>
-
-                <div id="soft-skills">
-                    <h2>Soft SKills</h2>
-                    <ul>
-                        <li>Capacité d'adaptation</li>
-                        <li>Curieux</li>
-                        <li>Communication</li>
-                        <li>Esprit d’équipe & d’entreprise</li>
-                        <li>Gestion du temps</li>
-                        <li>Organisation</li>
-                        <li>Résolution de problèmes</li>
-                        <li>Veille Technologique</li>
-                    </ul>                     
-                </div>
-
-                <div id="languages">
-                    <h2>LANGUES</h2>
-                    <ul>
-                        <li>CECRL niveau B2</li>
-                        <li>CECRL niveau A2</li>
-                    </ul>
-                </div>
-            </section>
-
-            <!-- Partie Droite du CV -->
-            <section id="cv-right">
-
-                <div id="name-title">
-                    <div id="name">Nicolas Plichon</div>
-                    <div id="title">Développeur Web <span id="fullstack">Fullstack</span></div>
-                    <div>JavaScript - React - Node.js</div>
-                </div>
-
-                <div id="about-me">
-                    <div class="right-section-title">
-                        A propos de moi
-                    </div>
-                    <div class="citation">Fort de quinze ans dans le commerce, pendant lesquels j’ai appris à m’adapter à toute situation et à chercher la meilleure solution aux
-                        projets que j’ai eu à gérer, j’ai aujourd’hui pour ambition de mettre cette expérience, ainsi que les compétences acquises lors de mon parcours de formation, au service d’une entreprise au sein de laquelle je pourrai m’épanouir dans le développement et la conception de sites et d’applications web.
-                    </div>
-                </div>
-
-                <div id="formation">
-                    <div class="right-section-title">
-                        Formation
-                    </div>
-                    <div>
-                        <div class="experience-block">
-                            <div class="dates">
-                                <span class="date-token">2022 - 2023</span>
-                            </div>
-                            <div class="experience-details">
-                                <div class="experience-details-title">
-                                    Développeur Web Fullstack JavaScript - O'Clock
-                                </div>
-                                <div class="experience-details-list">
-                                    <ul>
-                                        <li>Préparation du Titre Professionnel de Développeur Web et Web Mobile, niveau 5 (jury en juillet 2023)</li>
-                                        <li>Frontend : HTML, CSS, JavaScript, React</li>
-                                        <li>Backend : Node.js, PostgreSQL, SequeLize, EJS</li>
-                                        <li>Spécialisation React - Redux</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="experience-block">
-                            <div class="dates">
-                                <span class="date-token">2001 - 2003</span>
-                            </div>
-                            <div class="experience-details">
-                                <div class="experience-details-title">
-                                    BTS Informatique de Gestion
-                                </div>
-                                <div class="experience-details-list">
-                                    <ul>
-                                        <li>Option Administrateur de Réseaux, en alternance au sein du Service Informatique de la Banque Populaire du Haut-Rhin</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="experience-block">
-                            <div class="dates">
-                                <span class="date-token">1999 - 2001</span>
-                            </div>
-                            <div class="experience-details">
-                                <div class="experience-details-title">
-                                    Baccalauréat STT Comptabilité - Gestion
-                                </div>
-                                <div class="experience-details-list">
-                                    <ul>
-                                        <li>Lycée Saint-Joseph de Cluny, Mulhouse (68)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="experience-block">
-                            <div class="dates">
-                                <span class="date-token">1997 - 1999</span>
-                            </div>
-                            <div class="experience-details">
-                                <div class="experience-details-title">
-                                    BEP Comptabilité - Gestion
-                                </div>
-                                <div class="experience-details-list">
-                                    <ul>
-                                        <li>Lycée Saint-Joseph de Cluny, Mulhouse (68)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="experience">
-                    <div class="right-section-title">
-                        Expérience Professionnelle
-                    </div>
-                    <div>
-                        <div class="experience-block">
-                            <div class="dates">
-                                <span class="date-token">2019 - 2022</span>
-                            </div>
-                            <div class="experience-details">
-                                <div class="experience-details-title">
-                                    Commercial B2B en Protection Sociale
-                                </div>
-                                <div class="experience-details-list">
-                                    <ul>
-                                        <li>Harmonie Mutuelle, Allianz</li>
-                                        <li>Analyse des Besoins et des Demandes</li>
-                                        <li>Gestion de Projets</li>
-                                        <li>Résolution de Problématiques</li>
-                                        <li>Travail en équipe et en autonomie</li>
-                                        <li>Responsable de mon secteur et de mon activité</li>
-                                        <li>Négociation et Prospection</li>
-                                        <li>Gestion de la Relation Client</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="experience-block">
-                            <div class="dates">
-                                <span class="date-token">2014 - 2019</span>
-                            </div>
-                            <div class="experience-details">
-                                <div class="experience-details-title">
-                                    Cadre Commercial B2B
-                                </div>
-                                <div class="experience-details-list">
-                                    <ul>
-                                        <li>Parcours, TDX</li>
-                                        <li>Management d'équipe commerciale</li>
-                                        <li>Analyse de données</li>
-                                        <li>Responsable du site Web</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="experience-block">
-                            <div class="dates">
-                                <span class="date-token">2008 - 2014</span>
-                            </div>
-                            <div class="experience-details">
-                                <div class="experience-details-title">
-                                    Commercial B2B & B2C
-                                </div>
-                                <div class="experience-details-list">
-                                    <ul>
-                                        <li>K par K, Berner, Paritel</li>
-                                        <li>Découverte des Besoins</li>
-                                        <li>Prospection</li>
-                                        <li>Service Client</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-
-
+        <section class="parallax" id="home">
+            <div class="page-top"></div>
+            <div class="page-mid">
+                <h1>Hey moi c'est Nicolas</h1>
+                <h2>Développeur Web <span class="typeWriter">FullStack</span></h2>
+                <p class="home--content--text"></p>
+                <a href="#" class="link">Mes Projets</a>
+            </div>
+            <div class="page-bottom"></div>
         </section>
 
+        <section class="parallax" id="aboutMe">
+            <h1>A propos de moi</h1>
 
+            <div id="aboutMe-description">
+
+            </div>
+
+            <div id="aboutMe--softSkills">
+
+            </div>
+        </section>
+
+        <section class="parallax" id="skillSet">
+            <div>
+                <h1>Compétences</h1>
+                <h2>Ce que j'apprends à utiliser</h2>
+            </div>
+
+            <div id="skillSet-description">
+
+            </div>
+            
+            <div id="tools">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />      
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original-wordmark.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bulma/bulma-plain.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original-wordmark.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" />
+            </div>
+        </section>
+
+        <section class="parallax" id="projects">
+            <h1>Mes Projets</h1>
+
+            <div id="projects-description">
+
+            </div>
+
+            <div id="projects-menu">
+                Front / Back / End à cliquer
+
+            </div>
+
+            <div id="projects-categories">
+                <div id="projects-categories--front">
+
+                </div>
+
+                <div id=""projects-categories--back>
+
+                </div>
+
+                <div id=""projects-categories--fullstack>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="parallax" id="contact">
+            <h1>Me contacter</h1>
+        </section>
     </main>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./js/app.js"></script>
+    
 </body>
 </html>

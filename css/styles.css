@@ -1,139 +1,103 @@
 body {
-    background: no-repeat url('../images/body-background.avif') fixed;
-    background-size: cover;
+  font-family: 'Esteban', serif;
+  width: 100%;
+  margin: 0;
 }
 
-main {
-    width: 60%;
-    margin: auto;
-    border: 4px solid #1A242F;
-    border-radius: 10px;
-    box-shadow: 8px 6px 4px #374555;
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0.1px solid white;
+}
+  
+#home {
+  background-image: url("../images/bg-main.avif");
+}
+  
+#aboutMe {
+  background-image: url("../images/bg-about-me.avif");
 }
 
+#skillSet {
+  background-image: url("../images/bg-skillset.avif");
+}
+  
+#projects {
+  background-image: url("../images/bg-projects.avif");
+}
+
+#contact {
+  background-image: url("../images/bg-contact.avif");
+}
+  
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;letter-spacing: -6px;
+  color: black;
+  font-size: 75px;
+  line-height: 75px;
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+  
 h2 {
-    text-transform: uppercase;
-    border-bottom: 1px solid white;
+  font-family: 'Esteban', serif;
+  font-weight: normal;
+  color: black;
+  font-size: 50px;
+  line-height: 50px;
+  margin-top: 0;
 }
 
-#cv {
-    background: rgba(243, 241, 236, 0.9);
-    display: flex;
+.page-top {
+height: 12vh;
 }
 
-/* ---------------- Partie Gauche du CV ---------------- */
-#cv-left {
-    width: 30%;
-    background-color: hsl(211, 29%, 14%, 88%);
-    font-family: 'Calibri Light';
-    color: white;
-    padding: 1%;
+.page-mid {
+  height: 33vh;
+  /* text-shadow: 3px 3px 3px white; */
+  padding-left: 8%;
 }
 
-#cv-left a {
-    text-decoration: none;
-    color: white;
+.link {
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-#cv-left a:hover {
-    font-weight: bold;
-    color: #DD6825;
-    text-decoration: underline;
-
+.link:hover {
+  transition: 120ms;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
 }
 
-#photo {
-    display: flex;
+a:visited {
+  color: black;
 }
 
-#profile-picture {
-    margin: auto;
-    height: 200px;
+.typeWrited {
+  font-weight: bold;
+  text-shadow: 1px 1px 1px grey;
 }
 
-.left-contact-line {
-    display: flex;
-    margin-bottom: 0.2rem;
+#tools {
+margin-left: 10%;
+width: 60%;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+row-gap: 50px;
 }
 
-.contact-icon {
-    background-color: white;
-    border-radius: 15px;
-    height: 1.2rem;
-    margin-right: 10px;
-}
-
-
-/* ---------------- Partie Droite du CV ---------------- */
-#cv-right {
-    width: 70%;
-    padding: 1%;
-    font-family: 'Calibri Light';
-}
-
-#name-title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Agency FB', Calibri, 'Trebuchet MS', sans-serif;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-#name {
-    font-size: 2.5rem;
-    font-weight: bold;
-    letter-spacing: 2px;
-    margin-bottom: 1rem;
-}
-
-#title {
-    font-weight: bold;
-    font-size: 2rem;
-}
-
-#fullstack {
-    color: #DD6825;
-}
-
-.citation {
-    font-style: italic;
-}
-
-.right-section-title {
-    color: #374555;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    border-bottom: 2px solid #1A242F;
-}
-
-.experience-block {
-    display: flex;
-    margin-top: 0.5rem;
-}
-
-.dates {
-    width: 20%;
-    margin-top: 0.7rem;
-}
-
-.date-token {
-    background-color: #1A242F;
-    color: white;
-    padding: 0.5rem 0.5rem;
-    width: 80px;
-    height: 1.2rem;
-    border-radius: 5px;
-}
-
-.experience-details-title {
-    font-size: 1.1rem;
-}
-
-.experience-details {
-    width: 80%;
+#tools img {
+  height: 75px;
+  width: 25%;
 }
