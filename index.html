@@ -11,13 +11,24 @@
     <title>Nicolas Plichon - Développeur Web Full Stack</title>
 </head>
 <body>
+    <!-- Menu latéral -->
+    <div id="nav-menu">
+        <ul id="menu">
+            <li><a href="#home"><button id="buttonHome" class="nav nav-active">Home</button></a>
+            <li><a href="#aboutMe"><button id="buttonAbout" class="nav nav-inactive">A Propos</button></a>
+            <li><a href="#skillSet"><button id="buttonSkills" class="nav nav-inactive">Compétences</button></a>
+            <li><a href="#projects"><button id="buttonProjects" class="nav nav-inactive">Projets</button></a>
+            <li><a href="#contact"><button id="buttonContact" class="nav nav-inactive">Contact</button></a>
+        </ul>
+    </div>
+
     <main>
         <section class="parallax" id="home">
             <div class="page-top"></div>
             <div class="page-mid" id="home-page-mid">
                 <h1>Hey moi c'est Nicolas</h1>
                 <h2>Développeur Web <span class="typeWriter">FullStack</span></h2>
-                <a href="#" class="link">Mes Projets</a>
+                <a href="#projects" class="link">Mes Projets</a>
             </div>
             <div class="page-bottom"></div>
         </section>
@@ -35,7 +46,7 @@
                     <h1>A propos de moi</h1>
                     <p class="text-block" id="aboutMe-description--text">Fort de quinze ans dans le commerce, pendant lesquels j’ai appris à m’adapter à toute situation et à chercher la meilleure solution aux projets que j’ai eu à gérer, j’ai aujourd’hui pour ambition de mettre cette expérience, ainsi que les compétences acquises lors de mon parcours de formation, au service d’une entreprise au sein de laquelle je m’épanouirai dans le développement et la conception de sites et d’applications web.
                     </p>
-                    <a href="#" class="link">Discutons</a>
+                    <a href="#contact" class="link">Discutons</a>
                 </div>
         </section>
 
